@@ -325,45 +325,37 @@ vs = """
 
 
 def getRandomAccount():
-    account=random.choice(data)
+    account = random.choice(data)
     name = account["name"]
     description = account["description"]
     country = account["country"]
     return f"{name}, a {description}, from {country}"
 
 
-
-     
-
 def game():
-    score=0
+    score = 0
     game_should_continue = True
-    while(game_should_continue):
-            acc1=getRandomAccount()
-            acc2=getRandomAccount()
-            while(acc1==acc2):
-                acc1=getRandomAccount()
-                acc2=getRandomAccount()
-            print(logo)
-            print(f" Compare A: "+acc1)
-            print(vs)
-            print("Against B: "+acc2)        
-            print()
-            guess= input("Who do you think has more followers? Your answer: A or B?")
-            a_follower_count = acc1["follower_count"]
-            b_follower_count = acc2["follower_count"]
-            ans=(a_follower_count > b_follower_count)
-            if(guess=="A" & ans):
-                 score += 1
-                 print(f"You're right! Current score: {score}.")
-            else:
-                 game_should_continue = False
-                 print(f"Sorry, that's wrong. Final score: {score}")     
-   
-         
-            
-
-game()    
+    while game_should_continue:
+        acc1 = getRandomAccount()
+        acc2 = getRandomAccount()
+        while acc1 == acc2:
+            acc1 = getRandomAccount()
+            acc2 = getRandomAccount()
+        print(logo)
+        print(f" Compare A: " + acc1)
+        print(vs)
+        print("Against B: " + acc2)
+        print()
+        guess = input("Who do you think has more followers? Your answer: A or B?")
+        a_follower_count = acc1["follower_count"]
+        b_follower_count = acc2["follower_count"]
+        ans = (a_follower_count > b_follower_count)
+        if guess == "A" & ans:
+            score += 1
+            print(f"You're right! Current score: {score}.")
+        else:
+            game_should_continue = False
+            print(f"Sorry, that's wrong. Final score: {score}")
 
 
-
+game()
