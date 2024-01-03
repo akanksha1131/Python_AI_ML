@@ -1,6 +1,6 @@
 import random
 #this is rock paper scissors game
-# it uses random module
+
 rock = '''
     _______
 ---'   ____)
