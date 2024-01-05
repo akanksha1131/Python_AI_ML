@@ -1,5 +1,5 @@
 import random
-#this is rock paper scissors game
+
 
 rock = '''
     _______
