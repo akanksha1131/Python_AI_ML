@@ -1,4 +1,5 @@
 import random
+# uses random module
 
 rock = '''
     _______
