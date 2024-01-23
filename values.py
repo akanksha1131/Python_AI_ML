@@ -1,3 +1,3 @@
 pi=3.142857
 e=2.718281828459045
-goldenratio = 1.618
+fibonaccinumber = 1.618
