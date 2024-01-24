@@ -1,3 +1,3 @@
 pi=3.142857
 e=2.718281828459045
-fibonaccinumber = 1.618
+fibonacciNumber = 1.618
