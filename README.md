@@ -5,12 +5,8 @@ Date: 4 April 2024
 
 ****File Structure:****
 
-PS_CodeBytes
-│   
-├── myapp  
-├── models 
-└── README
-    └── video.mp4
+![image](https://github.com/akanksha1131/Python_AI_ML/assets/115597711/186d73d7-70a5-496d-b8c4-64d285cb6b5b)
+
 
 
 ****Project's Title:****
