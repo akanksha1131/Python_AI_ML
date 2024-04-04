@@ -7,12 +7,9 @@ Date: 4 April 2024
 
 PS_CodeBytes
 │   
-├── myapp
-│   
-├── models
-│   
+├── myapp  
+├── models 
 └── README
-
     └── video.mp4
 
 
